@@ -13,7 +13,6 @@ Este documento explica la estructura del proyecto **FileMate AI**, así como el 
  ┣ 📜 agente.py            # Inicialización del agente con el LLM y las herramientas
  ┣ 📜 herramientas.py      # Funciones utilitarias (convertir, renombrar, mover archivos, etc.)
  ┣ 📜 app.py               # Interfaz principal con Streamlit
- ┣ 📜 requirements.txt     # Dependencias del proyecto
  ┗ 📜 README.md            # Documentación básica del proyecto
 ```
 
@@ -63,23 +62,6 @@ Este documento explica la estructura del proyecto **FileMate AI**, así como el 
 
 ---
 
-### 📜 `requirements.txt`
-- Lista todas las dependencias necesarias para el proyecto.
-- Ejemplo de librerías:
-  ```
-  streamlit
-  langchain
-  transformers
-  torch
-  docx2pdf
-  pillow
-  ```
-- Se instalan con:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
----
 
 ### 📜 `README.md`
 - Documentación general del proyecto.
